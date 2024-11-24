@@ -7,9 +7,9 @@ https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter
 This looks like a well organized data set with many features. This, combined with the type of data (financial) made it interesting to me. 
 
 There are 3 files in this data set:
-1) a file describing the column names and descriptions
-2) the main data showing contract information on a set of over 300K contracts with a target variable indicating whether or not a particular customer was classified as having trouble paying back a loan along with many feature variables.
-3) a file with information about past applications for customers.
+1) "columns_descriptions.csv" -- a file describing the column names and descriptions
+2) "application_data.csv" -- the main data showing contract information on a set of over 300K contracts with a target variable indicating whether or not a particular customer was classified as having trouble paying back a loan along with many feature variables.
+3) "previous_application.csv" -- a file with information about past applications for customers. NOTE: for this project I am not using this file because it does not have previous payment history and it is also very large, affecting performance. 
 
 Looking at the data I asked a few questions: 
 1) what is the percent of contracts that defaulted?
