@@ -51,6 +51,8 @@ The amount of the loan relative to a party's income was an important variable ac
 
 2 other variables that were some of the more important ones were the age of a customer and how many days they had their current cell phone. 
 
+To see more details, please reference the jupyter notebook in this repo. Thanks! 
+
  
 
 
