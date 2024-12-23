@@ -30,10 +30,9 @@ matplotlib
 
 ## Questions Asked
 Looking at the data I asked a few questions: 
-1) What is the percent of contracts that had challenges repaying the loan?
-2) What type of machine learning model would be a good choice to use?
-3) Does the amount of the loan relative to a party's income (whether an individual or corporate entity) have an effect on the default rate? NOTE: this is not a variable in the data. 
-4) What other variables would the model consider important? Can we gain any insights from this? 
+1) If we run this data through machine learning, what would the model consider important? What is the percent of contracts that had challenges repaying the loan?
+2) Could we add a feature? If so, what and how would it perform in the model?
+3) What are the odds a customer would have challenges repaying the loan? 
 
 
 ## Method
@@ -43,13 +42,12 @@ I used 2 models concurrently to see which one, if either, would perform better -
 
 
 ## Summary
-The odds of challenges to repaying the loan were 13% overall. 
 
-Classification was the way to go as far as what kind of machine learning since we are trying to predict a yes no question. That question being: is the customer likely to pay back the loan or no? 
-
-The amount of the loan relative to a party's income was an important variable according to the model, but not the most important one. The most important variable was an external normalized data source that has characteristics of a credit bureau's data. 
+The feature that we added, the amount of the loan relative to a party's income was an important variable according to the model, but not the most important one. The most important variable was an external normalized data source that has characteristics of a credit bureau's data. 
 
 2 other variables that were some of the more important ones were the age of a customer and how many days they had their current cell phone. 
+
+The odds of challenges to repaying the loan were 13% overall. 
 
 To see more details, please reference the jupyter notebook in this repo. Thanks! 
 
